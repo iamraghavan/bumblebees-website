@@ -5,13 +5,13 @@
 		<div class="logo"><a href="{{ url("/") }}"><img src="{{ asset("/images/bumble-bees-logo.svg") }}" alt="" width="127"></a></div>
 		<button type="button" class="close-btn tran3s" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-x-lg"></i></button>
 	</div>
-	  
-	
+
+
 	  <div class="my-4">
 		<a target="_top"  href="https://portal.bumblebees.co.in//client/dl/6_9bylpg2nxy7se540c8ww0vbvc1p4qi" class="theme-btn-one ripple-btn d-block">
-			
+
  Download Broucher</a></div>
-	 
+
 
  <p>MSME : UDYAM-TN-13-0004198</p>
 
@@ -19,7 +19,7 @@
 		  <h4 class="title">Our Address</h4>
 		  <p>No: 2 Dhermer Street, Collector Office (Pt)  <br>Nagapattinam, Tamil Nadu - 611003</p>
 		  <p>Urgent issue? call us at <br><a href="{{ url("tel:+919942502245") }}">(+91) 9942 502 245</a> <br><a href="{{ url("tel:+919344223822") }}">(+91) 9344 223 822</a> </p>
-		  
+
 	  </div>
 	  <ul class="d-flex social-icon style-none mt-20">
 		<li><a target="_blank" href="https://www.facebook.com/bumblebeesindia"><i class="fab fa-facebook-f"></i></a></li>
@@ -27,7 +27,7 @@
 		<li><a target="_blank" href="https://api.whatsapp.com/send?phone=919942502245&text=Hi%20!%20%2C%20I%20want%20more%20info%20about%20your%20services"><i class="fab fa-whatsapp"></i></a></li>
 		<li><a target="_blank" href="https://www.linkedin.com/company/itzbumblebees/"><i class="fab fa-linkedin-in"></i></a></li>
 	</ul>
-</div> 
+</div>
 
 
 <header class="theme-main-menu sticky-menu theme-menu-one">
@@ -43,13 +43,13 @@
 						<li class="d-block d-lg-none"><div class="logo"><a href="{{ url("/") }}"><img src="{{ asset("/images/bumble-bees-logo.svg") }}" alt="" width="200"></a></div></li>
 						<li class="nav-item active dropdown mega-dropdown">
 							<a class="nav-link " href="{{ url("/") }}">Home</a>
-						
+
 						</li>
 						<li class="nav-item dropdown mega-dropdown">
 							<a class="nav-link " href="{{ url("/who-we-are") }}" role="button">Who we are ?</a>
-						
+
 						</li>
-					
+
 						<li class="nav-item dropdown mega-dropdown-md">
 							<a class="nav-link dropdown-toggle" href="{{ url("/") }}" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Services</a>
 							<ul class="dropdown-menu">
@@ -63,7 +63,7 @@
 													<li><a href="{{ url("/website/dynamic-website") }}" class="dropdown-item"><span>Dynamic Website</span></a></li>
 													<li><a href="{{ url("/website/wordpress-website") }}" class="dropdown-item"><span>Wordpress Website</span></a></li>
 													<li><a href="{{ url("/website/cms") }}" class="dropdown-item"><span>Joomal / Shopify / Opencart</span></a></li>
-													
+
 												</ul>
 											</div>
 										</div>
@@ -84,7 +84,7 @@
 													<li><a href="{{ url("/production/social-media-ads-design") }}" class="dropdown-item"><span>Social Media Ads Design</span></a></li>
 													<!-- <li><span>to be updated soon</span></li> -->
 													<!-- <li><a href="{{ url("/") }}" class="dropdown-item"><span>Company branding</span></a></li> -->
-													
+
 												</ul>
 											</div>
 										</div>
@@ -94,26 +94,26 @@
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link " href="{{ url("/blog") }}">Blog</a>
-							
+
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link " href="{{ url("/contact") }}" >Contact Us</a>
-						
+
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link " href="{{ url("/career") }}">Career</a>
-						
+
 						</li>
 					</ul>
 					<div class="mobile-content d-block d-lg-none">
-						
+
 						<p>MSME : UDYAM-TN-13-0004198</p>
-						
+
 						  <div class="address-block">
 							  <h4 class="title">Our Address</h4>
 							  <p>No: 2 Dhermer Street, Collector Office (Pt)  <br>Nagapattinam, Tamil Nadu - 611003</p>
 		  <p>Urgent issue? call us at <br><a href="{{ url("tel:+919942502245") }}">(+91) 9942 502 245</a> <br><a href="{{ url("tel:+919344223822") }}">(+91) 9344 223 822</a> </p>
-		  
+
 						  </div>
 					</div> <!-- /.mobile-content -->
 				</div>
@@ -127,4 +127,4 @@
 			</div> <!-- /.right-widget -->
 		</div>
 	</div> <!-- /.inner-content -->
-</header> 
+</header>

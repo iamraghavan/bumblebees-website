@@ -16,36 +16,51 @@
     <meta name="msapplication-TileColor" content="#0e0e0e">
     <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
 
+    <title>{{Seo::get('title')}}</title>
+
+    <meta name="title" content="{{ Seo::get('title') }}" />
+    <meta name="description" content="{{ Seo::get('description') }}" />
+    <meta name="keyword" content="{{ Seo::get('keyword') }}" />
+    <meta name="canonical" content="{{ Seo::get('canonical') }}" />
+
     <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    @include('laravel-seo::meta-facebook')
+    @include('laravel-seo::meta-twitter')
+
+    @include('laravel-seo::sd-organization')
+    @include('laravel-seo::sd-local-business')
+    @include('laravel-seo::sd-website')
+    @include('laravel-seo::sd-breadcrumblist')
 
 
     <!-- Fonts -->
-    
 
-    <!-- Styles --> 
+
+    <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}" media="all">
     <!-- responsive style sheet -->
     <link rel="stylesheet" type="text/css" href="{{asset('css/responsive.css')}}" media="all">
     <!-- Styles -->
     <style>
-        
-        
-    
+
+
+
     </style>
 </head>
 <body>
-    
+
 @include('components.header')
 
 @yield('content')
-  
+
 @include('components.footer')
- 
- 
- 
+
+
+
  <!-- Script -->
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
  {{-- <script src="{{asset('vendor/jquery.min.js')}}"></script> --}}
  <!-- Bootstrap JS -->
  <script src="{{asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
@@ -98,9 +113,9 @@ $.ajax({
  </body>
 
 
-        
-    
 
-    
-   
+
+
+
+
 </html>

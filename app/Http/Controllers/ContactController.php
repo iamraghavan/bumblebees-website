@@ -8,6 +8,9 @@ use App\Mail\ContactFormMail;
 use Illuminate\Support\Facades\Http;
 use RyanChandler\LaravelCloudflareTurnstile\Rules\Turnstile;
 
+use App\Jobs\SendContactEmail;
+use Illuminate\Support\Facades\Validator;
+
 class ContactController extends Controller
 {
     public function submitForm(Request $request)

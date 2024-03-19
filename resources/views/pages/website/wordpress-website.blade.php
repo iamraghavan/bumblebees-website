@@ -155,7 +155,7 @@
             <div class="row">
                 <div class="col-xxl-7 col-xl-8 col-lg-6 col-md-8 m-auto aos-init aos-animate" data-aos="fade-up">
                     <div class="title-style-one text-center">
-                        <h2 class="title">Customized Landing <span> Page Solutions</span></h2>
+                        <h2 class="title">WordPress Excellence by <span> Bumble Bees </span></h2>
                     </div>
                 </div>
             </div>
